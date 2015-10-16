@@ -40,7 +40,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <img src="assets/images/main-logo-yellow.png">
+          <a href="{!! url('/') !!}"><img src="assets/images/main-logo.png"></a>
         </div>
 
         <form class="navbar-form navbar-left" role="search">
@@ -54,8 +54,17 @@
 
           <ul class="nav nav-pills pull-right">
             <li role="presentation"><a href="#">Favorites</a></li>
-            <li role="presentation"><a href="#">Suggest</a></li>
-            <li role="presentation"><a href="#">Hello Jack Shwalo</a></li>
+            <li role="presentation"><a href="{!! url('/suggestion') !!}">Suggest</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hello User <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
             
           </ul>
 
