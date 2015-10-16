@@ -36,10 +36,22 @@ Route::controllers([
 Route::get('/', 'FrontendController@home');
 Route::get('/about_us', 'FrontendController@about');
 Route::get('/contact_us', 'FrontendController@contact');
-Route::get('/dashboard', 'FrontendController@dashboard');
-Route::get('/wish_list', 'FrontendController@wish_list');
-Route::get('/profile', 'FrontendController@profile');
-Route::get('/itinerary', 'FrontendController@itinerary');
+Route::get('/dashboard',[
+    'middleware' => 'auth',
+    'uses' => 'FrontendController@dashboard'
+]);
+Route::get('/wish_list',[
+    'middleware' => 'auth',
+    'uses' =>  'FrontendController@wish_list'
+]);
+Route::get('/profile',[
+    'middleware' => 'auth',
+    'uses' => 'FrontendController@profile'
+]);
+Route::get('/itinerary',[
+    'middleware' => 'auth',
+    'uses' => 'FrontendController@itinerary'
+]);
 Route::get('/search', 'FrontendController@search');
 Route::get('/suggestion', 'FrontendController@getSuggestion');
 Route::post('/suggestion', 'FrontendController@postSuggestion');

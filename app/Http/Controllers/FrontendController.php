@@ -23,6 +23,17 @@ class FrontendController extends Controller
 
 
     /**
+     * Display a Home page
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function dashboard()
+    {
+        return view('frontend.dashboard');
+    }
+
+
+    /**
      * Display a about us
      *
      * @return \Illuminate\Http\Response

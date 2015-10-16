@@ -44,7 +44,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <img src="assets/images/main-logo-yellow.png">
+          <a href="{!! url('/') !!}"><img src="assets/images/main-logo.png"></a>
         </div>
 
         <form class="navbar-form navbar-left" role="search">
@@ -58,7 +58,7 @@
 
           <ul class="nav nav-pills pull-right">
             <li role="presentation"><a href="#">Favorites</a></li>
-            <li role="presentation"><a href="#">Suggest</a></li>
+            <li role="presentation"><a href="{!! url('/suggestion') !!}">Suggest</a></li>
             <li role="presentation"><a href="#">Hello Jack Shwalo</a></li>
             
           </ul>
@@ -74,9 +74,9 @@
       					<div class="row">
 							  <div class="col-xs-6 col-md-2"></div>
 							  <div class="col-xs-6 col-md-8 sub-nav-about">
-							  	<a href=""> <i class="fa fa-tachometer fa-lg"></i> Who We Are</a>
+							  	<a href="{!! url('about_us') !!}"> <i class="fa fa-tachometer fa-lg"></i> Who We Are</a>
 							  	<a href=""><i class="fa fa-user fa-lg"></i> What We Do</a>
-							  	<a href=""><i class="fa fa-list fa-lg"></i>Contact</a>
+							  	<a href="{!! url('contact_us') !!}"><i class="fa fa-list fa-lg"></i>Contact</a>
 							  </div>
 							  <div class="col-xs-6 col-md-2"></div>
 						</div>
@@ -155,47 +155,7 @@
     </div>
     </div>
 
-    <!-- footer -->
-
-   <div class="jumbotron footer">
-     <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-          <h5>About</h5>
-          <a href="">About Us</a>
-          <a href="">Our Strory</a>
-          <a href="">Our Team</a>
-          </div>
-          <div class="col-md-3">
-          <h5>Dsicover</h5>
-          <a href="">Place</a>
-          <a href="">Fun</a>
-          <a href="">Food</a>
-          <a href="">People</a>
-
-          </div>
-          <div class="col-md-2">
-          <h5>Legal</h5>
-          <a href="">Privacy Policy</a>
-          <a href="">Terms & Conditions</a>
-          <a href="">Terms of Use</a>
-          <a href="">Guidlines</a>
-          </div>
-          <div class="col-md-4">
-          <h5>Follow Us On</h5>
-            <div class="socials">
-              <a href=""><img src="assets/images/facebook.png"></a>
-              <a href=""><img src="assets/images/twitter.png"></a>
-              <a href=""><img src="assets/images/pintrest.png"></a>
-            </div>
-            <form>
-              <input type="email" name="subscribe" class="form-control" value="Subscribe to our newsletter"><button class="btn btn-default">Submit</button>
-            </form>
-          </div>
-        </div>
-     </div>
-   </div>
-   <!-- footer -->
+    @include('frontend.shared.footer')
 
     
     </body>
