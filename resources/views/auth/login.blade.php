@@ -27,7 +27,7 @@
 		<![endif]-->
 	</head>
 	<body class="menubar-hoverable header-fixed ">
-
+		<a href="{!! url('/') !!}" class="solo_logo"><img src="../assets/images/main-logo.png"></a>
 		<!-- BEGIN LOGIN SECTION -->
 		<section class="section-account">
 			<div class="img-backdrop" style="background-image: url('../assets/images/about.jpg')"></div>
@@ -86,7 +86,7 @@
 								<h3 class="text-light">
 									No account yet?
 								</h3>
-								<a class="btn btn-block btn-raised btn-primary btn-primary-color" href="#">Sign up here</a>
+								<a class="btn btn-block btn-raised btn-primary btn-primary-color" href="{!! url('auth/register') !!}">Sign up here</a>
 								<br><br>
 									<h3 class="text-light">
 										or

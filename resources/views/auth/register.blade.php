@@ -28,6 +28,7 @@
 	</head>
 	<body class="menubar-hoverable header-fixed ">
 
+			<a href="{!! url('/') !!}" class="solo_logo"><img src="../assets/images/main-logo.png"></a>
 		<!-- BEGIN LOGIN SECTION -->
 		<section class="section-account">
 			<div class="img-backdrop" style="background-image: url('../assets/images/about.jpg')"></div>

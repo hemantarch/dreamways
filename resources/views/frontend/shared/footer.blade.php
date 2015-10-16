@@ -5,9 +5,10 @@
         <div class="row">
           <div class="col-md-3">
           <h5>About</h5>
-          <a href="">About Us</a>
+          <a href="{!! url('about_us') !!}">About Us</a>
           <a href="">Our Strory</a>
           <a href="">Our Team</a>
+          <a href="{!! url('contact_us') !!}">Contact Us</a>
           </div>
           <div class="col-md-3">
           <h5>Dsicover</h5>
