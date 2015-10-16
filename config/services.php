@@ -37,7 +37,7 @@ return [
     'facebook' => [
     'client_id' => '490758027751622',
     'client_secret' => 'aaf3ac7d9a3243ab11e1ba56a70bfb0a',
-    'redirect' => 'http://polar-headland-5277.herokuapp.com/login/facebook',
+    'redirect' => 'http://polar-headland-5277.herokuapp.com/auth/login/facebook',
 ],
 
 ];
