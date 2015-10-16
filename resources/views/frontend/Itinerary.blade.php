@@ -164,7 +164,7 @@
     </div>
     </div>
 
-@include('frontend.shared.footer')
+   @include('frontend.shared.footer')
 
 
    <!-- Bootstrap core JavaScript
