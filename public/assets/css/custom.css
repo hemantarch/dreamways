@@ -1,0 +1,166 @@
+
+ .jumbotron
+ {
+ 	background: none;
+ }
+ .home-jumbotron
+ {
+ 	height: 708px;
+ 	padding-bottom: 0;
+ 	background: url('../images/main-home.jpg') no-repeat center center;
+ 	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+ .home-jumbotron .container .row
+ {
+ 	margin-top: 226px;
+ }
+ .home-jumbotron .container .row form input[type=text]
+ {
+ 	
+ 	width: 80%;
+ 	height: 40px;
+ 	border: none;
+ 	float: left;
+ 	padding-left:10px;
+ 	color: #000;
+
+ }
+  .home-jumbotron .container .row form button
+ {
+ 	width: 20%;
+ 	height: 40px;
+ 	background: #f88032;
+ 	border: none;
+ 	float: left;
+
+ }
+ .home-jumbotron .container .row
+ {
+ 	color: #fff;
+ }
+ .home-jumbotron .container .row h2
+ {
+ 	font-family: proxima-boldd; 
+ 	text-align: center;
+ 	
+
+ }
+ .home-jumbotron .container .row p
+ {
+ 	font-size: 18px;
+ 	text-align: center;
+ }
+ .home-discover h4, .home-carousel h4,.home-next-adv h4, .home-community h4
+ {
+ font-family: proxima-light; 	
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 21px;
+ }
+ .home
+ {
+ 	background: none;
+ 	border: none;
+ 	position: absolute;
+	top: 10px;
+ }
+ @media (min-width: 1200px)
+ {
+		.discover .container,.navbar .container{
+		    width: 100%;
+
+		}
+
+}
+
+.home .nav-pills>li>a:focus, .home .nav-pills>li>a:hover
+{
+	background: none;
+	color: #000;
+}
+.home .nav-pills>li>a
+{
+padding-top: 10px;
+}
+.home .nav-pills>li>a
+{
+color: #fff;
+
+}
+.home .navbar-toggle {
+
+    border-color: #fff;
+}
+.home .navbar-collapse, .home .navbar-form
+{
+	border-color:#fff;
+}
+.discover .home-discover .container .row  .row
+{
+	margin-top: 25px;
+}
+
+.home-carousel
+{
+	background: #f88032;
+	color: #fff;
+	text-align: justify;
+}
+.home-carousel h5
+{
+	text-align: center;
+	margin-top: 20px;
+}
+.home-carousel p
+{
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 70px;
+}
+.home-carousel .container
+{
+	padding:10px;
+}
+.home-carousel img.img-responsive
+{
+	margin: 0 auto;
+	
+
+}
+.home-carousel .col-md-1 img
+{
+	margin-top: 55px;
+}
+.home-next-adv p,.home-community p
+{
+	font-size: 15px;
+	text-align: center;
+}
+.home-next-adv a
+{
+width: 100%;
+display: block;
+text-align: center;
+color: #3f9ae6;
+}
+.home-community
+{
+	background: #f4f4f4;
+	margin-bottom: 0px;
+}
+.home-community img.img-responsive
+{
+	margin: 40px auto;
+
+}
+.home-community .row p
+{
+	font-size: 15px;
+	margin-top: 40px;
+}
+
+

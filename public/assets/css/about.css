@@ -1,0 +1,158 @@
+/* Navigation with home class */
+.home
+ {
+ 	background: none;
+ 	border: none;
+ 	position: absolute;
+	top: 10px;
+ }
+ @media (min-width: 1200px)
+ {
+		.discover .container,.navbar .container{
+		    width: 100%;
+
+		}
+
+}
+
+.home .nav-pills>li>a:focus, .home .nav-pills>li>a:hover
+{
+	background: none;
+	color: #000;
+}
+.home .nav-pills>li>a
+{
+padding-top: 10px;
+}
+.home .nav-pills>li>a
+{
+color: #fff;
+
+}
+.home .navbar-toggle {
+
+    border-color: #fff;
+}
+.home .navbar-collapse, .home .navbar-form
+{
+	border-color:#fff;
+}
+/* Navigation with home class */
+
+
+.head-jumbotron
+ {
+ 	height: 354px;
+ 	padding-bottom: 0;
+ 	background: url('../images/about.jpg') no-repeat center center #ccc;
+ 	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+ .head-jumbotron .about-sub-menu
+ {
+ 	position: relative;
+ 	background: rgba(00,00,00,0.6);
+ 	height: 50px;
+ 	top: 256px;
+
+ }
+ .sub-nav-about
+ {
+ 	color: #fff;
+ 	text-align: center;
+ }
+ .sub-nav-about a
+ {
+ 	margin-right: 40px;
+ 	line-height: 50px;
+ 	color: #fff;
+ 	text-decoration: none;
+ 	font-family: proxima-regular;
+ 	font-size: 16px;
+ }
+ .sub-nav-about a:hover
+ {
+ 	color: #ff921f;
+ }
+ .about-body
+ {
+ 	margin-bottom: 45px;
+ }
+ .about-body h5
+ {
+ 	text-align: center;
+ 	font-family: proxima-light;
+ 	color: #000;
+ 	font-size: 30px;
+ }
+ .about-body hr
+ {
+ 	width: 10%;
+ 	margin: 0 auto;
+ 	background: #000;
+ 	border-color:#000;
+ 	margin-bottom: 20px;
+ }
+ .about-body .form-group label
+ {
+ 	font-family: proxima-light;
+ 	font-size: 17px;
+ }
+ .about-body .form-group input
+ {
+ 	border-radius: 0;
+ 	width: 100%;
+ 	height: 39px;
+ }
+ .about-body button.btn
+{
+	background: #f78032;
+	border:1px solid #fff;
+	color: #fff;
+	width: 70%;
+	float: left;
+	border-radius: 0;
+	height: 39px;
+}
+.about-body button:hover
+{
+background: #fff;
+color: #f78032;
+border:1px solid #fff;
+}
+.abt-info
+{
+font-family: proxima-light;
+ 	color: #000;
+ 	text-align: center;
+}
+.abt-info span
+{
+	font-size: 17px;
+}
+.abt-info h5
+{
+	color: #f78032;
+	font-size: 16px;
+}
+.abt-info>p
+{
+	margin-bottom: 30px;
+}
+.who-we-are
+{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.who-we-are p
+{
+	text-align: justify;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+.carousel {
+	margin-bottom: 0;
+	}

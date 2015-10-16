@@ -1,0 +1,112 @@
+.suggestion-body
+{
+	background: url('../images/suggestion-bg.jpeg');
+}
+
+.suggestion-jumbotron
+{
+	
+	background: none;
+	min-height: 200px;
+}
+.main-suggestion
+{
+	background-color: #fff;
+}
+.suggestion-main h5, .suggestion-main p
+{
+	color: #fff;
+	text-align: center;
+}
+input.form-control,select.form-control,textarea.form-control
+{
+	border-radius: 0;
+
+}
+button.btn-primary
+{
+	border-radius: 0;
+	background-color: #f78032;
+	border-color: #f78032;
+}
+.suggestion-main h5
+{
+	text-align: center;
+	font-size: 35px;
+}
+.suggestion-main .col-md-6
+{
+	
+}
+.form-suggestion
+{
+	background-color: #fff;
+}
+.form-suggestion h4
+{
+	color: #f58634;
+}
+
+
+
+
+ #map {
+        
+            height: 500px;
+            width: 100%;
+            display: block;
+      }
+.controls {
+
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+
+.alert-success
+{
+  background: rgba(46,46,45,0.3);
+  color: #fff;
+  text-align: center;
+}
+
+
+

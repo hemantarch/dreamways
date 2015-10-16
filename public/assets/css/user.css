@@ -1,0 +1,288 @@
+/* Navigation with home class */
+.home
+ {
+ 	background: none;
+ 	border: none;
+ 	position: relative;
+	top: 10px;
+	margin-bottom: 50px;
+
+ }
+ @media (min-width: 1200px)
+ {
+		.discover .container,.navbar .container{
+		    width: 100%;
+
+		}
+
+}
+
+.home .nav-pills>li>a:focus, .home .nav-pills>li>a:hover
+{
+	background: none;
+	color: #000;
+}
+.home .nav-pills>li>a
+{
+padding-top: 10px;
+}
+.home .nav-pills>li>a
+{
+	
+color: #000;
+
+}
+.home .navbar-toggle {
+
+    border-color: #fff;
+}
+.home .navbar-collapse, .home .navbar-form
+{
+	border-color:#fff;
+}
+.navbar form
+{
+	margin-left: 10em;
+	margin-top: 20px;
+}
+.navbar form input.form-control
+{
+	width: 20em;
+	border-radius: 0;
+	float: left;
+	background: url('../images/search74.png') no-repeat 10px 8px;
+	padding-left: 30px;hjg
+}
+.navbar form button
+{
+	border-radius: 0;
+	background: #f68132;
+	border-color: #f68132;
+	color: #fff;
+
+}
+.navbar form button:hover
+{
+	background: #d56c25;
+	color: #fff;
+	border-color: #f68132;
+
+
+}
+.home .nav-pills
+{
+	margin-top: 15px;
+}
+/* Navigation with home class */
+.sub-menu
+{
+	height: 55px;
+	background: #45b6d6;
+	text-align: center;
+}
+.sub-menu a
+{
+	margin-right: 90px;
+	line-height: 55px;
+	color: #fff;
+	text-decoration: none;
+}
+.sub-menu a:hover
+{
+	color: #000;
+}
+.sub-menu a i
+{
+	margin-right: 5px;
+}
+.ds-title img
+{
+float: right;
+}
+.ds-title
+{
+	text-align: center;
+	margin-top: 50px;
+}
+.ds-title h4
+{
+	margin-top: 55px;
+}
+.ds-get-started
+{
+	margin-top: 50px;
+}
+.ds-get-started h4
+{
+ font-family: proxima-light; 	
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 21px;
+ }
+ .panels
+ {
+ 	margin-top: 45px;
+ }
+ .panels .panel,.wsl .panel
+ {
+ 	border-radius: 0;
+ 	border:none;
+ 	background: #f4f4f4;
+ 	font-family: proxima-regular;
+
+ }
+.panels .panel .panel-heading,.wsl .panel .panel-heading
+{
+	
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background:#45b8d7;
+    border:none;
+    color: #fff;
+    font-family: proxima-regular;
+}
+.col-md-4 .panel .activity
+{
+text-align: center;
+font-family: proxima-boldd;
+}
+.col-md-4 .panel .activity h1
+{
+	color: #45b8d7;
+	font-size: 52px;
+}
+.progress-bar
+{
+	background-color: #45b8d7;
+}
+.wsl-haeder
+{
+	height: 50px;
+	background-color: #f58031;
+	text-align: center;
+	color: #fff;
+	font-family: proxima-regular;
+	line-height: 50px;
+	margin-top: 28px;
+	margin-bottom: 20px;
+}
+.wsl-info
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.wsl-info input
+{
+	border-radius: 0;
+	height: 40px;
+}
+.wsl-info textarea
+{
+	border-radius: 0;
+	height: 90px;
+}
+.wsl-info button
+{
+	border-radius: 0;
+}
+.wsl-info-btn button
+{
+	position: relative;
+
+}
+.wsl-info-btn button[type=submit]
+{
+ margin-top: 345px;
+ border-radius: 0;
+ background-color: #45b6d6;
+ border: none;
+ margin-bottom: 10px;
+
+}
+.wsl-info-btn button[type=button]
+{
+ 
+ border-radius: 0;
+ background-color: #45b6d6;
+ border: none;
+
+}
+.profile .row .col-md-8
+{
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-right: 48px;
+}
+.profile input
+{
+	border-radius: 0;
+	height: 40px;
+}
+.profile textarea
+{
+	border-radius: 0;
+	
+}
+.profile .form-group select
+{
+	height: 40px;
+
+}
+
+.profile label
+{
+	font-family: proxima-regular;
+}
+.profile button
+{
+	border-radius: 0;
+	background: #f88032;
+	border: none;
+	color: #fff;
+	font-family: proxima-regular;
+	width: 120px;
+}
+.profile
+{
+	margin-bottom: 0;
+}
+.profile .col-md-2 a
+{
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	
+	color: #000;
+	font-family: proxima-regular;
+	padding-left: 17px;
+	padding-top: 10px;
+}
+.itinerary
+{
+	background: #fff;
+	text-align: left;
+	font-family: proxima-regular;
+}
+.itinerary h4
+{
+	margin-top: 20px;
+	font-family: proxima-boldd;
+}
+.itinerary .content figure
+{
+	margin-top: 4px;
+}
+.iti-dw-btn
+{
+	border-radius: 0;
+	background: #45b6d6;
+	border: none;
+	color: #fff;
+	font-family: proxima-regular;
+	margin-top: 15px;
+	
+}
+
+
+

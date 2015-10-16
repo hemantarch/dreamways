@@ -1,0 +1,182 @@
+/* Navigation with home class */
+.home
+ {
+ 	background: none;
+ 	border: none;
+ 	position: absolute;
+	top: 10px;
+	margin-bottom: 50px;
+
+ }
+ @media (min-width: 1200px)
+ {
+		.discover .container,.navbar .container{
+		    width: 100%;
+
+		}
+
+}
+
+.home .nav-pills>li>a:focus, .home .nav-pills>li>a:hover
+{
+	background: none;
+	color: #fff;
+}
+.home .nav-pills>li>a
+{
+padding-top: 10px;
+}
+.home .nav-pills>li>a
+{
+	
+color: #fff;
+
+}
+.home .navbar-toggle {
+
+    border-color: #fff;
+}
+.home .navbar-collapse, .home .navbar-form
+{
+	border-color:#fff;
+}
+.navbar form
+{
+	margin-left: 10em;
+	margin-top: 20px;
+}
+.navbar form input.form-control
+{
+	width: 20em;
+	border-radius: 0;
+	border-color: #fff;
+	color: #fff;
+	float: left;
+	background: url('../images/search74.png') no-repeat 10px 8px;
+	padding-left: 30px;hjg
+}
+.navbar form button
+{
+	border-radius: 0;
+	background: none;
+	border-color: #fff;
+	color: #fff;
+
+}
+.navbar form button:hover
+{
+	background: #d56c25;
+	color: #fff;
+	border-color: #f68132;
+
+
+}
+.home .nav-pills
+{
+	margin-top: 15px;
+}
+/* Navigation with home class */
+
+.head-jumbotron
+ {
+ 	height: 254px;
+ 	padding-bottom: 0;
+ 	background: url('../images/about.jpg') no-repeat center center #ccc;
+ 	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0;
+ }
+.head-jumbotron .container .row
+{
+	text-align: center;
+	color: #fff;
+	margin-top: 110px
+}
+.dw-map iframe
+{
+	width: 100%;
+}
+
+.search-result .filters
+{
+	padding-top: 50px;
+}
+.search-result .filters a
+{
+	display: inline;
+	text-align: center;
+	color: #000;
+	font-family: proxima-boldd;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-right: 5px;
+}
+.search-result .filters a:hover
+{
+	color: #ef2e6d;
+}
+.search-result .filters p
+{
+margin-top: 60px;
+margin-bottom: 20px;
+font-family: proxima-regular;
+text-align: center;
+
+}
+.head-links .left-a
+{
+	text-align: left;
+	
+	font-family: proxima-boldd;
+	color: #ef2e6d;
+	
+
+}
+.head-links .right-a
+{
+	float: right;
+	font-family: proxima-boldd;
+	color: #ef2e6d;
+	
+}
+
+.grid figure
+{
+	min-width: 210px;
+    max-width: 368px;
+    max-height: 260px;
+    margin: 10px .5%;
+}
+.grid figure figcaption p span
+{
+	color: #f58031;
+	font-family: proxima-boldd;
+	font-size: 16px;
+}
+.grid figure figcaption p i
+{
+margin-right: 10px;
+margin-top: 10px;
+}
+.grid figure figcaption p i:hover
+{
+	color: #f58031;
+}
+.grid
+{
+	max-width: 100%;
+}
+
+.carousel
+{
+	margin-bottom: 0;
+}
+
+
+
+
+

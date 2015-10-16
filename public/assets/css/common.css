@@ -1,0 +1,87 @@
+@font-face { font-family: proxima-boldd; font-weight: bold; src: url('../fonts/proxima-nova-alt-bold.ttf');}
+ @font-face { font-family: proxima-light; src: url('../fonts/ProximaNova-Light.otf');}
+ @font-face { font-family: proxima-regular; src: url('../fonts/ProximaNova-Regular.otf');}
+
+ *
+ {
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+
+
+
+ .footer
+{
+	background: #f78032;
+	color: #fff;
+	margin-bottom: 0;
+}
+.footer h5
+{
+font-family: proxima-boldd;
+font-size: 18px;
+padding-left: 20px;
+}
+.footer a
+{
+	
+	display:list-item;
+	color: #fff;
+	padding-left: 20px;
+	list-style-type: none;
+}
+.socials a
+{
+float: left;
+}
+.footer form
+{
+	width: 100%;
+	display: block;
+	float: left;
+	margin-left: 18px;
+	margin-top: 15px;
+
+
+}
+.footer form input[type=email]
+{
+	border-radius: 0;
+	background: #f78032;
+	border:1px solid #fff;
+	color: #fff;
+	width: 65%;
+	float: left;
+
+	
+}
+.footer form button
+{
+	background: #f78032;
+	border:1px solid #fff;
+	color: #fff;
+	width: 20%;
+	float: left;
+	border-radius: 0;
+}
+.footer form button:hover
+{
+background: #fff;
+color: #f78032;
+border:1px solid #fff;
+}
+span.text-primary-color
+{
+	color: #f88032;
+}
+.btn-primary-color
+{
+	background-color: #f88032;
+	border-color: #f88032;
+}
+.btn-primary-color:hover
+{
+	background-color: #df6c21;
+	border-color: #f88032;
+}
